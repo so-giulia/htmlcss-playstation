@@ -37,8 +37,6 @@
 }
 
 .debug .jumbotron, #game-cta, #explore-cta, #now-cta{
-    width:100%;
-    height:600px;
     background-color: aqua;
 }
 
@@ -47,7 +45,7 @@
 }
 
 .debug #new{
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(31, 31, 31);
     color:rgb(255, 255, 255);
 }
 
@@ -68,7 +66,8 @@
     color:rgb(255, 255, 255);
 }
 
-.jumbotron img{
+.jumbotron img,
+#game-cta img{
     width:100%;
     margin-left:-7px;
 }
@@ -106,3 +105,13 @@
     padding-bottom:40px;
     border-bottom:2px solid rgb(45, 100, 230);
 }
+
+/* Game cta it takes two */
+
+#game-cta{
+    height:795px;
+    background:transparent url(../img/it-takes-two-hero-banner-desktop.jpg) scroll no-repeat 50% 0;
+    background-size: cover;
+    color:rgb(255, 255, 255);
+}
+
