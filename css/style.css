@@ -17,6 +17,17 @@
     color: rgb(45, 100, 230);
 }
 
+/* Btns */
+
+.btn-blue{
+    background-color: rgb(45, 100, 230);
+    color:rgb(255, 255, 255);
+}
+
+.btn-blue:hover{
+    background-color: rgb(38, 86, 197);
+    color:rgb(255, 255, 255);
+}
 
 /* Debug - delete later */
 
