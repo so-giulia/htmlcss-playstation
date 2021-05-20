@@ -1,0 +1,19 @@
+/* Debug - delete later */
+
+.debug .header-top{
+    height:50px;
+    background-color: #000;
+}
+
+.debug .header-bottom{
+    height:80px;
+    background-color: lightgrey;
+}
+
+/* Header */
+
+.header-bottom{
+    position:fixed;
+    top:50px;
+    width:100%;
+}
