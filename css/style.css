@@ -36,6 +36,11 @@
     background-color: aqua;
 }
 
+.debug #new{
+    background-color: #000;
+    color:white;
+}
+
 /* Header */
 
 #stickynav{
