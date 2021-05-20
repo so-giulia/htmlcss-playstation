@@ -29,6 +29,16 @@
     color:rgb(255, 255, 255);
 }
 
+.btn_light{
+    color:rgb(38, 86, 197);
+    background-color: rgb(217, 218, 220);
+}
+
+.btn_light:hover{
+    color:rgb(38, 86, 197);
+    background-color: rgb(255, 255, 255);
+}
+
 /* Debug - delete later */
 
 .debug .header-top{
@@ -126,5 +136,9 @@
     color:rgb(255, 255, 255);
 }
 
-/* New drops section */
+/* Explore cta section */
 
+#explore-cta{
+    background: rgb(190, 188, 187) url(../img/ps-plus-april-monthly-games-featured-image-block.png) scroll no-repeat 90% 0;
+    background-size: contain;
+}
