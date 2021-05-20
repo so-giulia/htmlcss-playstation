@@ -7,14 +7,16 @@
 }
 
 .my-spacing{
-    margin-bottom: 120px;
+    margin-bottom: 100px;
 }
 
 /* Text */
 
 .caption{
     margin-bottom:0;
+    color: rgb(45, 100, 230);
 }
+
 
 /* Debug - delete later */
 
@@ -83,3 +85,24 @@
 
 /* Play5 - 1 section */
 
+.cardnav-container img{
+    width:100%;
+    border-radius: 2rem !important;
+}
+
+.cardnav-active{
+    border:2px solid rgb(45, 100, 230);
+}   
+
+.card{
+    border:none;
+}
+
+.card img{
+    margin:auto;
+}
+
+.console-card-active{
+    padding-bottom:40px;
+    border-bottom:2px solid rgb(45, 100, 230);
+}
