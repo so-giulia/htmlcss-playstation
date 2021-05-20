@@ -30,10 +30,14 @@
     height:200px;
 }
 
-.debug .jumbotron, #cta{
+.debug .jumbotron, #game-cta, #explore-cta, #now-cta{
     width:100%;
     height:600px;
     background-color: aqua;
+}
+
+#explore-cta, #now-cta{
+    height:400px;
 }
 
 .debug #new{
