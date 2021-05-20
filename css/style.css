@@ -63,6 +63,19 @@
     width: 100%;
 }
 
+/* Jumbotron */
+
+.jumbotron{
+    height:700px;
+    background:transparent url(../img/jumbo-bg.png) scroll no-repeat 50% 0;
+    background-size: cover;
+    color:#fff;
+}
+
+.jumbotron img{
+    width:100%;
+    margin-left:-7px;
+}
 
 /* Play5 - 1 section */
 
