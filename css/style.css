@@ -84,7 +84,7 @@
 
 /* Play5 - 1 section */
 
-.cardnav-container img{
+.cardnav-container img, .new-img{
     width:100%;
     border-radius: 2rem !important;
 }
@@ -114,4 +114,6 @@
     background-size: cover;
     color:rgb(255, 255, 255);
 }
+
+/* New drops section */
 
