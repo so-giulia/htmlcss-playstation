@@ -6,6 +6,16 @@
     box-sizing: border-box;
 }
 
+.my-spacing{
+    margin-bottom: 120px;
+}
+
+/* Text */
+
+.caption{
+    margin-bottom:0;
+}
+
 /* Debug - delete later */
 
 .debug .header-top{
@@ -42,4 +52,8 @@
     position: fixed;
     top: 0;
     width: 100%;
-  }
+}
+
+
+/* Play5 - 1 section */
+
