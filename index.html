@@ -23,14 +23,13 @@
     
                 </div>
             </div>
-
-            <div class="row header-bottom">
-                <nav></nav>
-            </div>
         </div>
     </header>
     <!-- head end -->
 
+    <!-- sticky nav start -->
+    <nav id="stickynav"></nav>
+    <!-- sticky nav end -->
 
     <!-- jumbo start -->
     <div class="jumbotron d-flex align-items-end">
@@ -44,7 +43,51 @@
     </div>
     <!-- jumbo end -->
 
+    <!-- main start -->
+    <main class="debug">
+        <section id="playstation-5" class="my-3 p-5">
+            <div class="container-fluid">
+                <div class="row cardnav-container gy-4">
+                    <div class="col-xs-6 col-sm-4 col-lg-2">
+                        <div class="box-adaptive"></div>
+                    </div>
+                    <div class="col-xs-6 col-sm-4 col-lg-2">
+                        <div class="box-adaptive"></div>
+                    </div>
+                    <div class="col-xs-6 col-sm-4 col-lg-2">
+                        <div class="box-adaptive"></div>
+                    </div>
+                    <div class="col-xs-6 col-sm-4 col-lg-2">
+                        <div class="box-adaptive"></div>
+                    </div>
+                    <div class="col-xs-6 col-sm-4 col-lg-2">
+                        <div class="box-adaptive"></div>
+                    </div>
+                    <div class="col-xs-6 col-sm-4 col-lg-2">
+                        <div class="box-adaptive"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- main end -->
 
+    <!-- My script -->
+    <script>
+        window.onscroll = function() {stickyNav()};
+        
+        var navbar = document.getElementById("stickynav");
+        var sticky = stickynav.offsetTop;
+        
+        function stickyNav() {
+          if (window.pageYOffset >= sticky) {
+            stickynav.classList.add("sticky")
+          } else {
+            stickynav.classList.remove("sticky");
+          }
+        }
+    </script>
+    
 
     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
