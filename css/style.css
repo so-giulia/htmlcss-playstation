@@ -139,8 +139,7 @@ a.btn_black:hover{
 .my-megamenu[data-bs-popper]{
     border:none;
     border-radius:0rem;
-    width:100vw;
-    top:75px;
+    top: 70px;
 }
 
 .dropdown-container{
@@ -296,5 +295,9 @@ footer{
 @media screen and (min-width:992px){
     .sub-link{
         margin-left:-12px;
+    }
+
+    .w-lg-50 {
+        width: 50%!important;
     }
 }
