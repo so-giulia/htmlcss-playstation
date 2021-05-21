@@ -47,7 +47,6 @@
     background-color: rgb(255, 255, 255);
 }
 
-
 .btn_white{
     color:rgb(0, 0, 0);
     background-color: rgb(255, 255, 255);
@@ -87,7 +86,56 @@
 .sticky-top{
     width:100%;
     height:80px;
-    background-color: lightgrey;
+    background-color: rgb(255, 255, 255);
+    color:rgb(0, 0, 0);
+}
+
+.sticky-top a{
+    color:rgb(0, 0, 0);
+}
+
+.dropdown-chevron::after {
+    display: inline-block;
+    content: '';
+    width:10px;
+    height:10px;
+
+    margin-left: .255em;
+    vertical-align: middle;
+    
+    background:transparent url(../img/chevron-down-solid.svg) scroll no-repeat center;
+}
+
+.dropdown-chevron:hover::after{
+    background:transparent url(../img/chevron-down-solid-hover.svg) scroll no-repeat center;
+}
+
+.dropdown-chevron[aria-expanded="true"]::after {
+    transform: rotate(180deg);
+}
+
+.my-dropdown{
+    position:static;
+}
+
+.my-megamenu[data-bs-popper]{
+    border:none;
+    border-radius:0rem;
+    width:100vw;
+    top:78px;
+}
+
+.dropdown-container{
+    padding:0;
+}
+
+.sub-menu li{
+    list-style-type: disc;
+    color:rgb(0, 112, 209);
+}
+
+.sub-link{
+    margin-left:-11px;
 }
 
 /* Jumbotron */
@@ -113,7 +161,6 @@
 }
 
 .cardnav-container img{
-    transform-origin: bottom;
     cursor: pointer;
 
     transition:transform ease 0.5s;
@@ -124,7 +171,6 @@
 
     transition:transform ease 0.5s;
 }
-
 
 .cardnav-active{
     border:2px solid rgb(45, 100, 230);

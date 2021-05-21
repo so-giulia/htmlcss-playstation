@@ -18,7 +18,7 @@
     <!-- head start -->
     <header>
         <div class="container-fluid">
-            <div class="row justify-content-end align-items-center header-top">
+            <div class="row justify-content-end align-items-center header-top px-5">
                 <div class="col-1">
                     <img src="img/sony_logo.svg" class="py-3" alt="logo sony white">
                 </div>
@@ -28,7 +28,106 @@
     <!-- head end -->
 
     <!-- sticky nav start -->
-    <nav class="sticky-top"></nav>
+    <nav class="navbar navbar-expand-lg sticky-top px-5">
+        <div class="container-fluid">
+            <!-- logo start -->
+            <a class="navbar-brand" href="#">
+                <img src="img/play_logo.svg" alt="PlayStation logo">
+            </a>
+            <!-- logo end -->
+
+            <!-- hamburger start -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- hamburger end -->
+
+            <!-- menu start -->
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link dropdown-chevron" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Giochi
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link dropdown-chevron" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Hardware
+                        </a>
+                    </li>
+                    <li class="nav-item dropdown my-dropdown has-megamenu">
+                        <a class="nav-link dropdown-chevron" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Servizi
+                        </a>
+                        <ul class="dropdown-menu megamenu my-megamenu" aria-labelledby="navbarDropdown">
+                            <div class="container-fluid dropdown-container">
+                                <div class="row dropdown-item">
+                                    <div class="col-12">
+                                        <div class="row justify-content-center gx-3">
+                                            <div class="col-1">
+                                                <img src="img/play-menu-ico.png" class="w-100" alt="X">
+                                            </div>
+                                            <div class="col-1">
+                                                <img src="img/play-menu-ico.png" class="w-100" alt="X">
+                                            </div>
+                                            <div class="col-1">
+                                                <img src="img/play-menu-ico.png" class="w-100" alt="X">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <li><hr class="dropdown-divider"></li>
+
+                                <div class="row justify-content-center sub-menu">
+                                    <div class="col-1">
+                                        <ul class="sub-link">
+                                            <li>
+                                                <a href="#">sub link acquisti</a>
+                                           </li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-1">
+                                        <ul class="sub-link">
+                                            <li>
+                                                <a href="#">sub link</a>
+                                           </li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-1">
+                                        <ul class="sub-link">
+                                            <li>
+                                                <a href="#">sub link</a>
+                                           </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </ul>                     
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link dropdown-chevron" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Novità
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link dropdown-chevron" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Fai acquisti
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link dropdown-chevron" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Supporto
+                        </a>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
     <!-- sticky nav end -->
 
     <!-- jumbo start -->
