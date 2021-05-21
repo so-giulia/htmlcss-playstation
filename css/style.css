@@ -172,6 +172,10 @@ a.btn_black:hover{
     color:#000 !important;
 }
 
+#my-bg-lighter{
+    background-color: rgb(255, 255, 255) !important;
+}
+
 /* .vertical-menu{
     background-color: white;
     padding: 15px;
