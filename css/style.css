@@ -60,9 +60,7 @@
 /* Debug - delete later */
 
 .debug .header-top{
-    height:50px;
     background-color: #000;
-    z-index:100;
 }
 
 .box-adaptive{
