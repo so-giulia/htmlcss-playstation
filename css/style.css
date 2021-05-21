@@ -175,16 +175,10 @@ a.btn_black:hover{
     background-color: rgb(255, 255, 255) !important;
 }
 
-/* .vertical-menu{
-    background-color: white;
-    padding: 15px;
-    margin: 0;
-    width: 100vw;
-} */
-
 .dropdown-padding{
     padding:0;
 }
+
 
 /* Jumbotron */
 
@@ -299,5 +293,9 @@ footer{
 
     .w-lg-50 {
         width: 50%!important;
+    }
+
+    .dropdown-container{
+        width: 100vw; 
     }
 }
