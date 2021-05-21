@@ -65,10 +65,6 @@
     z-index:100;
 }
 
-.debug footer{
-    background-color: blue;
-}
-
 .box-adaptive{
     background-color: red;
     width:100%;
@@ -157,4 +153,33 @@
     background: rgb(22, 28, 59) url(../img/ps-now-april-featured-image-block.png) scroll no-repeat 90% 0;
     background-size: contain;
     color:rgb(255, 255, 255);
+}
+
+/* Footer */
+
+footer{
+    background-color: rgb(0, 67, 156);
+    color: rgb(255, 255, 255);
+}
+
+.foot-logo{
+    width:15%;
+}
+
+.lang-globe img{
+    width:18px;
+    height:18px;
+}
+
+.txt-small{
+    font-size:0.8rem;
+}
+
+.list-unstyled li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.list-unstyled li {
+    margin-bottom:10px;
 }
