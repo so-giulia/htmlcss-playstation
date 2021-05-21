@@ -112,6 +112,20 @@
     border-radius: 2rem !important;
 }
 
+.cardnav-container img{
+    transform-origin: bottom;
+    cursor: pointer;
+
+    transition:transform ease 0.5s;
+}
+
+.cardnav-container img:hover{
+    transform:translateY(-15px);
+
+    transition:transform ease 0.5s;
+}
+
+
 .cardnav-active{
     border:2px solid rgb(45, 100, 230);
 }   
