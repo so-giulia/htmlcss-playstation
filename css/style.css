@@ -135,6 +135,10 @@ a.btn_black:hover{
 .my-dropdown{
     position:static;
 }
+.navbar-light .navbar-nav .nav-link:hover {
+    color: rgb(0, 112, 209);
+}
+
 
 .my-megamenu[data-bs-popper]{
     border:none;
@@ -262,6 +266,13 @@ footer{
     color: rgb(255, 255, 255);
 }
 
+
+
+.foot-nav{
+    font-size: 0.8rem;
+    font-weight: 300;
+}
+
 .foot-logo{
     width:15%;
 }
@@ -273,6 +284,7 @@ footer{
 
 .txt-small{
     font-size:0.8rem;
+    line-height: 1.8;
 }
 
 .list-unstyled li a{
